@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To Do Lists</title>
+    <link rel="stylesheet" href="dist/main.css">
+</head>
+<body>
+    
+    <header>
+        <h1>To Do Lists</h1>
+        <!-- Form Elements -->
+        <button id="add_new_task_button">Add New Task</button>
+        <div id="form_container_div">
+            <form id="new-task-form">
+                <a id="name_title">Title</a>
+                <input type="text" id="new-task-input" placeholder="Title" pattern="[A-Za-z0-9 ]*" required />
+                <a id="name_title">Description</a>
+                <textarea id="new-task-description" cols="30" rows="10" placeholder="Description" required></textarea>
+                <a id="name_title">Due Date</a>
+                <input type="date" id="new-task-date" placeholder="Due Date" required/>
+                <a id="name_title">Due Time</a>
+                <input type="time" id="new-task-time" placeholder="Due Time" required/>
+                <a id="name_title"></a>
+                <input type="submit" id="add-new-task" value="Submit" required/>    
+            </form>
+        </div>
+
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+
+            <div id="tasks">
+
+                <!--<div class="task">
+                    <div class="action">
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>-->
+
+            </div>
+        </section>
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+[
+    {
+        "id" : 1,
+        "title": "Complete Assignment 1",
+        "description": "It is very important assignment",
+        "due_date": "20 th Oct 2020",
+        "due_time": "12:00 AM",
+        "status" : "open"
+    },
+    {
+        "id" : 2,
+        "title": "JavaScript Complete",
+        "description": "Ok Ok Assignment",
+        "due_date": "25 th Oct 2020",
+        "due_time": "12:00 AM",
+        "status" : "open"
+    },
+    {
+        "id" : 3,
+        "title": "OOD Assignment",
+        "description": "Medium Assignment",
+        "due_date": "26th Oct 2020",
+        "due_time": "12:00 AM",
+        "status" : "open"
+    },
+    {
+        "id" : 4,
+        "title": "ENCP Assignment",
+        "description": "Complex Assignment",
+        "due_date": "28th Oct 2020",
+        "due_time": "12:00 AM",
+        "status" : "open"
+    },
+    {
+        "id" : 5,
+        "title": "Cooking !!",
+        "description": "U will Strave",
+        "due_date": "22th Oct 2020",
+        "due_time": "12:00 AM",
+        "status" : "open"
+    }
+]
