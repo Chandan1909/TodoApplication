@@ -1,0 +1,200 @@
+/* body tag css files */
+body{
+    display: flex;
+    flex-direction: column;
+    background: rgb(128, 128, 128);
+    color: rgb(255, 255, 255);
+}
+#form_container_div{
+    display: none;
+}
+/* Header tag css files */
+header
+{
+    padding: 1em 1em;
+    max-width: 40em;
+    width: 100%;
+    margin: 0% auto;
+}
+/* Header and h1 section tags  */
+header h1{
+    font-size: 2.5em;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+/* Id tag selector s */
+#new-task-form{
+    display: flex;
+    flex-direction: column;
+}
+/* Input and button tag selectors */
+input, button{
+    
+    border: none;
+    outline: none;
+    background: none;   
+    appearance: none;
+}
+/* Id selectors */
+#new-task-input,#new-task-description,#new-task-date,#new-task-time{
+    flex:1 1 0%;
+    background-color: rgb(62, 61, 61);
+    padding : 1em;
+    border-radius: 1em; 
+    margin-right: 1em;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+}
+/* Id selectors */
+#new-task-input:placeholder{
+    color: rgb(128, 128, 128);
+}
+/* Id selectors */
+#add-new-task,#add_new_task_button
+{
+    color: rgb(46, 211, 240);
+    font-size: 1.5em;
+    font-weight: 300;
+    cursor: pointer;
+}
+/* Id selectors */
+#add-new-task:hover{
+    opacity: 0.8;
+}
+/* tag selector */
+main{
+    flex: 1 1 0%;
+    padding: 1em 1em;
+    max-width: 40em;
+    width: 100%;
+    margin: 0 auto;
+}
+/* class selectors */
+.task-list
+{
+    padding: .5em;
+}
+/* class selectors */
+.task-list h2{
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+/* class selectors */
+#tasks .task{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(62, 61, 61);
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+/* class selectors */
+.delete{
+    color: rgb(247, 67, 17);
+    font-size: 1.5em;
+    font-weight: 300;
+    cursor: pointer;
+}
+/* class selectors Pseudo class selectors*/
+.delete:hover{
+    opacity: 0.8;
+}
+/* class selectors */
+.Mark_as_completed
+{
+    color: rgb(240, 85, 46);
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+}
+/* class selectors */
+.View
+{
+    color: rgb(20, 244, 233);
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+}
+.Done_button
+{
+    color: rgb(20, 244, 233);
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+}
+/* class selectors */
+.text
+{
+    font-size: 1.2em;
+    color: rgb(246, 241, 241);
+}
+/* class selectors */
+.dynamic_description,.dynamic_due_date,.dynamic_due_time,.dynamic_status
+{
+    padding-top: 1em;
+    color: rgb(246, 241, 241);
+}
+/* class selectors */
+.content
+{
+    display: flex;
+    flex-direction: column;
+}
+/* .dot{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(248, 2, 2);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: .2em;
+}
+.greendot{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(17, 239, 6);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: .2em;
+} */
+
+#name_title{
+    margin-left: .5em;
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+/* #abc
+{
+   background-color: rgb(77, 76, 76);
+   width: 40em;
+   height: 45em;  
+   border: none;
+   border-radius: 1em;
+} */
+
+/* #popup
+{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* #name_title{
+    color: rgb(250, 252, 252);
+    font-size: 1.5em;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.task_details{
+    padding: .25em;
+    margin-left: 1em;
+    margin-top: .5em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    background-color: rgb(168, 167, 167);
+    border: none;
+    border-radius: .5em;
+}
+ */
